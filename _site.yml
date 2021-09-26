@@ -8,6 +8,8 @@ navbar: ## this is the navigation bar of your website ### below are elements of 
     href: home.html       ## the refernece file to be displayed
   - text: "About me"
     href: about.html
+  - text: "Publications and Presentations"
+    href: presentation.html
   - text: "contact"
     href: contact.html
   - text: "Downloads"
