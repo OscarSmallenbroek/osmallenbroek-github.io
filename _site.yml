@@ -1,0 +1,17 @@
+name: "Osmallenbroek_website" ## it won't be shown
+output_dir: "." ## it will create new output in the same working directory
+navbar: ## this is the navigation bar of your website ### below are elements of it
+  title: "Dr. Oscar Smallenbroek" ## the title of your website, it will be shown 
+  left: ## on which side will the next elements be shown ### right is also possible
+  - text: "Home"   ## the title of your main page, it will be shown
+    icon: fa-home  ## if you want to add tiny icons next to your text
+    href: home.html       ## the refernece file to be displayed
+  - text: "About me"
+    href: about.html
+  - text: "contact"
+    href: contact.html
+  - text: "Downloads"
+    href: syntax_downloads.html
+output: ## this is about the output itself, here are settings of the page
+  html_document: 
+    theme: flatly ## is the theme of your website (template)

@@ -1,0 +1,27 @@
+---
+title: "Class Schema Syntax Files"
+output: html_document
+---
+
+Implementing a class schema in your data can be a daunting task, especially if you are new to sociology or to the social stratification literature. I've found the Stata package ["iscogen"](https://ideas.repec.org/c/boc/bocode/s458665.html) extremely useful. It's an easy to use command and the help file provides all the necessary documentation you need to understand each class schema or index and what variables you need to implement it in your data set. 
+
+Carlo, Florian and I have also developed several pieces of code that build on the works you can find in iscogen. We hope that providing these syntax these will simplify and standardize future work on social stratification. 
+
+
+
+## The European Socio-economic Class Schema (ESEC): a small adjustement. 
+Carlo, Florian and I developed a [simple improvement of the EGP/ESEC](https://osf.io/preprints/socarxiv/gwt8b/). We divide managers and supervising professionals in each service class from the non-supervision professionals. It is simple to implement (in Stata), just paste [this code](syntax_downloads_files/esec_mp.txt) into your do file. We called this version the ESEC-MP
+
+
+
+## The ESEC at the Micro-Level 
+A second piece of code we developed ia micro-level implementation of the employment relations framework (EGP/ESEC). We started out with the European Social Economic Groups [(ESEG)](https://www.gesis.org/fileadmin/upload/forschung/programme_projekte/sozialwissenschaften/Amtliche_Mikrodaten/ESeC_allbus_8006_.do) and re-assigned ISCO codes according to the [employment relations](https://www.ericharrison.co.uk/european-socio-economic-classification-esec.html) logic. The result is a implementation of the ESEC at a higher level of detail. Now you can collapse the ESEG-Revised into the ESEC-MP or ESEC. The full documentation can be downloaded [here](syntax_downloads_files/Notes on ESEG Revision.pdf) or from our [project's website](carlo/flo/oscar website).
+
+
+# Microclass schema based on ISCO-08
+Carlo, Florian and I also developed a microclass schema derived from ISCO08. The microclass approach was developed by Kim Weeden and David Grusky and situates the mechanisms of social stratification at the occupational level through occupational socialization, social closure and regulation. 
+
+Our operationalization of the microclasses uses ISCO08 codes but relies on Weeden and Grusky's journal articles and the syntax of available on [Kim Weeden's website](http://www.kimweeden.com/research/occupations/), who used SOC Codes (Occupational codes for the USA). 
+
+You can download our ISCO08 to microclasses [dataset in .dta format](syntax_downloads_files/isco08 to microclass.dta) or in [excel  format](syntax_downloads_files/isco08_micro_v2.xls) and our documentation [here](syntax_downloads_files/Creation of the cross walk from ISCO 2008 to micro.pdf).
+

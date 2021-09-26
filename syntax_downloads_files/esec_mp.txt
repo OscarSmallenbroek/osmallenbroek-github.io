@@ -1,0 +1,48 @@
+version 15
+*install the iscogen package
+ssc install(iscogen)
+*create ESEC using iscogen
+*substite your variable names following the iscogen documentation 
+*In this case sempl is coded 1 if self-employed and 0 if employed
+*supvis is coded 1 if employed and supervising or takes the value of the number of employees if respondent is self-employed. 
+iscogen esec08 = esec(my_isco08_variable sempl supvis) , from(isco08) emissing
+*First digit of isco code for the assignment of manager/professional distinction
+*if you have 4 digits divide by 1000, if you have 3 digits divide by 100.
+gen 	isco_1D  = floor(my_isco08_variable/1000)
+
+
+*CREATE VARIABLES NEEDED TO CREATE ESEC - MP 
+*EMPLOYMENT STATUS
+gen 	emp_stat = 5  //assumed to be employee
+replace	emp_stat = 1 if sempl==1 &  supvis >= 10 & !missing(supvis) //large employers
+replace emp_stat = 2 if sempl==1 &  supvis >= 1  & supvis < 10 &  !missing(supvis) //small employers
+replace emp_stat = 3 if sempl==1 & (supvis < 1   | supvis >=.) //self-employed
+replace emp_stat = 4 if (supvis > 0 & supvis < . ) & sempl ==0 //supervisors
+replace emp_stat = . if sempl >=. & supvis >=. //missing on emplrel
+
+*initialize the ESEC MP variable
+gen ESEC_MP = .
+replace ESEC_MP = 1 if ESEC == 1 &  (isco1D  ==0 | isco1D  ==1 | empstat  == 4 ) //managers and superivising professionals in ESEC 1 go to higher managers (ESEC-MP 1)
+replace ESEC_MP = 1 if ESEC == 1 &  (empstat ==1 | empstat ==2) // employers in ESEC 1 go to higher managers (ESEC-MP1). 
+replace ESEC_MP = 2 if ESEC == 1 &  (isco1D  > 1 & empstat != 4 & (empstat == 3 | empstat ==5))
+replace ESEC_MP = 3 if ESEC == 2 &  (isco1D  ==0 | isco1D  ==1 | empstat  == 4 ) //managers and supervising profesionals in ESEC 2 go to lower managers (ESEC-MP 2)
+replace ESEC_MP = 3 if ESEC == 2 &  (empstat ==1| empstat ==2 ) // employers in ESEC 2 go to lower managers. 
+replace ESEC_MP = 4 if ESEC == 2 &  (isco1D  > 1 & empstat != 4 & (empstat == 3 | empstat ==5)) 
+replace ESEC_MP = ESEC+2 if ESEC > 2 // copy the other ESEC assignments
+
+*LABELS
+#delimit ;
+label define ESEC_MP
+  1 "Higher Manager"
+  2 "Higher Professional"
+  3 "Lower Manager"
+  4 "Lower Professional"
+  5 "Higher-grade White-collar"
+  6 "Self-employed and Small Employer"
+  7 "Self-employed and Small Employer agriculture"
+  8 "Higher-grade Blue-collar"
+  9 "Lower-grade White-collar"
+  10 "Lower-grade Blue-collar"
+  11 "Routine", replace ;
+#delimit cr
+label values ESEC_MP ESEC_MP

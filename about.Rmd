@@ -1,0 +1,27 @@
+--- 
+title: "About me"
+---
+![](profilepicture.jfif){width=200px}
+
+## Currently
+I am (until Dec. 2021) a postdoctoral fellow at Sciences Po, Paris, France, working with Prof. [Carlo Barone](https://www.sciencespo.fr/osc/fr/node/1608.html) and Dr. [Florian Hertel](https://florianhertel.de/en/site-2/) (Universität Hamburg, Germany). We assesses the criterion and construct validity of social class schema. We summarized our findings [here](https://link towebsite).
+
+We are in the process of publishing 4 papers. One examines the criterion validity of the EGP/ESEC. The second examines how sociologists measures social positions in top tier journals. The third compares the construct validity of the most-often used class schema in sociology using cross-sectional data from 63 countries. The fourth compares the construct validity of SES indexes, class schema or income measures using longitudinal data. 
+
+## Research Interests
+My general research interests go beyond social stratification to include positive and social psychology. In my work I focus on social class, personal values, gender, and measurement issues. 
+
+In my PhD at the European University Institute in Florence, Italy, I applied a psychological theory of personal values to sociological and demographic issues. I found that gender affects value orientations, including caring and altruistic goals and achievement and power goals. These, in turn, play a role in choices of fields of study, occupational socialization, the probability of marriage and the household division of labour. 
+
+I have also published my BA thesis, which integrates psychological and philosophical approaches to examine the relationship between personal values and well-being. 
+
+## In the Pipeline
+I am preparing several manuscripts based on my PhD and collaborative Projects with [Adrian Stanciu](https://adrianstanciu.eu/) and [Klaus Boehnke](https://www.jacobs-university.de/directory/kboehnke). 
+
+* I integrate a theory of personal values with the Second Demographic Transition narrative, arguing the integration can enhance our understanding of the association between socio-economic, value and demographic change.
+
+* Together with Klaus  and Adrian, we examine value change and stability over the 
+life span with two panel datasets from Germany, each spanning 30 years. 
+
+* Adrian and I are also examining how age and gender affects value ratings and change over
+the life-span using a 10-year longitudinal dataset from the Netherlands. 

@@ -1,0 +1,46 @@
+---
+title: "Publications and Presentations"
+output: html_document
+---
+
+
+<p>
+<p>
+
+
+## Upcoming Presentations
+
+* "The measurement of socioeconomic position" by Carlo Barone, Florian Hertel & Oscar Smallenbroek at the **EU's Joint Research Centre** in Seville, Spain on October 26th, 2021. [Part of the DIGCLASS seminar series](https://ec.europa.eu/jrc/en/research/centre-advanced-studies/digclass/seminar-series)
+
+## Peer Reviewed
+<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+Smallenbroek, Oscar, John M. Zelenski, and Deanna C. Whelan. 2016. “Authenticity as a Eudaimonic Construct: The Relationships among Authenticity, Values, and Valence.” The Journal of Positive Psychology 1–13. 
+</div>
+## Working Papers
+
+<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+  <div class="csl-entry">Smallenbroek, Oscar, Florian R. Hertel, and Carlo Barone. 2021. ‘Measuring Class Hierarchies in Postindustrial Societies: A Criterion and Construct Validation of EGP and ESEC across 31 Countries’.
+  </div>
+
+  <div class="csl-entry">Barone, C., Hertel, F. R., & Smallenbroek, O. (2021, January 7).“What we think when we speak about stratification.” https://doi.org/10.31235/osf.io/rpfza. </div>
+</div>
+<p>
+
+
+## Conference Presenations
+
+* “A Tour Guide to Your Favorite Class Conceptualization: An assessment of class schema’s construct validity in 61 Countries” **European Sociological Association Research Network 21 on Quantitative Methods** in Barcelona, Spain, August 31-3 September 2021.
+
+* “Value Change over the lifespan: Evidence from 25 years of longitudinal data”. Oral Presentation.  **International Congress of Psychology**. July 18-23th, 2021, Prague, Czechia. Invited Panel: “Value preferences and their development across the lifespan” organised by Prof. Klaus Boehnke, discussant, Prof. Shalom Schwartz. 
+
+* “A tour guide to your favorite class conceptualisation - The relationship between social class schemes and inequality and class voting from a comparative perspective” Poster presentation **International Sociological Association RC28**, June 2-4, 2021. 
+
+* “Reassessing class hierarchies in post-industrial societies: a criterion and construct validation of EGP and ESEC across 31 countries”, **International Sociological Association Research Committee 28** on Social Stratification and Mobility Spring Conference in Turku, Finland, June 2-4, 2021
+
+* “Stuck in the Middle of Maslow’s Pyramid: Self-expressive relationships and the effect of personal values on marriage”, **European Consortium for Sociological Research**, University of Lausanne, Switzerland. 9-12 September 2019
+
+* “Gender encoded motivation for doing household labor: the effects of women’s values and men’s norms”, **Mini symposium on Gender, Work and Family**, European University Institute, April 16, 2019
+
+* “Social Class and Value Orientations in the Netherlands: the separate effects of job complexity and job security” **BIGSSS-Lives Winter School**, Bremen, Germany, March 12-18, 2018
+
+

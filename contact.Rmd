@@ -1,0 +1,7 @@
+---
+title: "Contact Info"
+output: html_document
+---
+
+Email: Oscar.Smallenbroek@alumni.eui.eu <p>
+Twitter: @OSmallenbroek
